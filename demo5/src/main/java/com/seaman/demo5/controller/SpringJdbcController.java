@@ -3,8 +3,6 @@ package com.seaman.demo5.controller;
 import com.seaman.demo5.dao.entity.User;
 import com.seaman.demo5.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
